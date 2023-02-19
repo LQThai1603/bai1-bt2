@@ -1,0 +1,104 @@
+<!doctype html>
+<html leng="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bai-TH2</title>
+    </head>
+
+    <body>
+        <h1>THÊM SINH VIÊN</h1>
+        <form action="htmlcss" >
+            <table>
+                <tr>
+                    <td><label for="hoten">Họ tên</label></td>
+                    <td><input type="text" id="hoten" name="hoten" value="Nguyễn Văn An"></td>
+                </tr>
+                <tr>
+                    <td><label for="ngaysinh">Ngày sinh </label></td>
+                    <td><input type="date" id="ngaysinh" name="ngaysinh" value="2000-01-01"></td>
+                </tr>
+                <tr>
+                    <td><label for="nam">Giới tính</label></td>
+                    <td>
+                        <input type="radio" id="nam" name="gioitinh" value="nam" checked>
+                        <label for="nam">Nam</label>
+                        <input type="radio" id="nu" name="gioitinh" value="nu">
+                        <label for="nu">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="quequan">Quê quán</label></td>
+                    <td>
+                        <select name="quequan" id="quequan">
+                            <option value="Hà Nội">Hà Nội</option>
+                            <option value="Hà Giang">Hà Giang</option>
+                            <option value="TP HCM">TP HCM</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="diachi">Địa chỉ</label></td>
+                    <td><input type="text" id="diachi" name="diachi" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="sothich1">Sở thích</label></td>
+                    <td>
+                        <input type="checkbox" id="sotich1" name="thethao">
+                        <label for="sothich1">Thể thao</label>
+                        <input type="checkbox" id="sotich2" name="dulich">
+                        <label for="sothich2">Du lịch</label>
+                        <input type="checkbox" id="sotich3" name="phimanh">
+                        <label for="sothich3">Phim ảnh</label>
+                        <input type="checkbox" id="sotich4" name="amnhac">
+                        <label for="sothich4">Âm nhạc</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mauyeuthich">Màu yêu thích</label></td>
+                    <td>
+                        <input type="color" id="mauyeuthich" name="mauyeuthich" value="#ff0000">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="em">Email</label></td>
+                    <td><input type="email" id="em" name="em"></td>
+                </tr>
+                <tr>
+                    <td><label for="facebook">Trang Facebook</label></td>
+                    <td><input type="text" id="facebook" name="facebook" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="lop">Lớp</label></td>
+                    <td>
+                        <select name="lop" id="lop">
+                            <option value="lop8">Lớp CNTT khóa 8</option>
+                            <option value="lop1">Lớp CNTT khóa 1</option>
+                            <option value="lop2">Lớp CNTT khóa 2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tendangnhap">Tên đăng nhập</label></td>
+                    <td><input type="text" id="tendangnhap" name="tendangnhap" value=""></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="matkhau">Mật khẩu</label></td>
+                    <td><input type="password" id="matkhau" name="matkhau" ></td>
+                </tr>
+                <tr>
+                    <td><label for="anhthe">ảnh thể</label></td>
+                    <td><input type="file" id="anhthe" name="anhthe"></td>
+                </tr>
+                <tr>
+                    <td><label for="mota">Mô tả</label></td>
+                    <td><input type="text" id="mota" name="mota" value="Nhập nội dung vào đây!"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="gửi"></td>
+                    <td><input type="reset" value="nhập lại"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
